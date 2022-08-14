@@ -1,0 +1,53 @@
+button,
+button:hover,
+button:focus,
+.buttonStyle:hover,
+.buttonStyle,
+.buttonStyle:focus {
+  float: right;
+  width: 75%;
+  font-size: 14px;
+  height: 35px;
+  border-radius: 3px;
+  border: #6976e0;
+  background-color: #6976e0;
+  color: white;
+}
+.react-datepicker-ignore-onclickoutside,
+.modal-content input {
+  width: 100% !important;
+}
+
+.modal-content .form-control:focus,
+.modal-content .css-1s2u09g-control:active {
+  border-color: #a6846f;
+  box-shadow: unset !important;
+}
+
+.modal-content .saveBttn {
+  right: 10px;
+  position: relative;
+}
+
+@media (max-width: 380px) {
+  .buttonStyle {
+    font-size: 10px;
+  }
+}
+@media (max-width: 580px) {
+  h4 {
+    font-size: 15px;
+  }
+}
+.modal-content .saveBttn {
+  pointer-events: none;
+  border: #6976e0;
+  background-color: #6976e0;
+}
+.modal-content .btn-secondary {
+  pointer-events: none;
+}
+.modal-content .btn:hover,
+.modal-content .saveBttn {
+  width: 25%;
+}

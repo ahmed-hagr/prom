@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 320px) {
+  .MuiContainer-root {
+    padding: 0px !important;
+  }
+}
+.logo-cont {
+  background: #6977dc !important;
+}
+.bg-color {
+  background: #e8e7f4;
+}
+
+.logo-cont span {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+.logo-cont p {
+  text-align: center;
+  font-size: 3px;
+  color: white;
+  margin-bottom: 0px !important;
+}
+
+.img-toggle {
+  margin-top: 8px;
+}
+.cont-Image {
+  margin: auto 0px 0 10px;
+}
+img.proileImg {
+  width: 40px !important;
+  height: 40px !important;
+  /* margin-top: -2px !important; */
+  border-radius: 50%;
+  margin-right: 10px;
+  /* margin-left: 25px; */
+  cursor: pointer;
+}
+.proileImg {
+  margin-top: 0px !important;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.contUser {
+  margin-top: -6px;
+}
+.userViews {
+  /* position: absolute; */
+  top: 14px;
+  left: 66px;
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  width: fit-content;
+  color: #85858599;
+}
+.userName {
+  margin: 0px;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: #767676;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 86px;
+  height: 1.3em;
+  white-space: nowrap;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.page-pos {
+  height: 600px;
+}
+
+button {
+  float: right;
+  width: 75%;
+  font-size: 14px;
+  height: 35px;
+  border-radius: 3px;
+  border: #6976e0;
+  background-color: #6976e0;
+  color: white;
+  box-shadow: unset !important;
+}
+.MuiTypography-body1 {
+  color: #007bff !important ;
+}
+
+.date-subTask {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+@media (max-width: 576px) {
+  .MuiPaper-elevation {
+    max-width: unset !important;
+    margin: auto !important;
+    margin-bottom: 20px;
+  }
+  .card-component-parent .card-cont {
+    margin-bottom: 20px;
+  }
+}
+
+.MuiTab-root {
+  width: 100% !important;
+}
+.MuiTabs-fixed {
+  display: flex !important;
+  justify-content: center;
+}
